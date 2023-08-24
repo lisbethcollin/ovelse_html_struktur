@@ -1,0 +1,18 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+article {
+  border: solid;
+  margin-bottom: 2rem;
+}
+header,
+footer {
+  text-align: center;
+  border: double;
+}
